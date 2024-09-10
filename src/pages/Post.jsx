@@ -39,7 +39,7 @@ export default function Post() {
                     <img
                         src={appwriteService.getFilePreview(post.featuredImage)}
                         alt={post.title}
-                        className="rounded-xl w-4/6"
+                        className="rounded-xl w-3/6"
                     />
 
                     {isAuthor && (
